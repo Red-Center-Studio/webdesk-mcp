@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Red-Center-Studio/rcs-tools",
+  "title": "Red Center Studio free tools",
+  "description": "Free website checks: GEO audit, single point of failure DNS scan, Bubble error decoder. No key.",
+  "websiteUrl": "https://redcenterstudio.com/webdesk/agents/docs/#free-tools",
+  "repository": {
+    "url": "https://github.com/Red-Center-Studio/webdesk-mcp",
+    "source": "github",
+    "subfolder": "rcs-tools"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://redcenterstudio.com/api/tools/mcp"
+    }
+  ]
+}

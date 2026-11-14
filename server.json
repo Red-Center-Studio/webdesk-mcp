@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Red-Center-Studio/webdesk",
+  "title": "WebDesk",
+  "description": "Build complete one-page small business websites from a short brief. Prepaid credits via Stripe.",
+  "websiteUrl": "https://redcenterstudio.com/webdesk/agents/docs/",
+  "repository": {
+    "url": "https://github.com/Red-Center-Studio/webdesk-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://redcenterstudio.com/api/webdesk/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer API key: \"Bearer wd_...\". Create one free at redcenterstudio.com/webdesk/agents/",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

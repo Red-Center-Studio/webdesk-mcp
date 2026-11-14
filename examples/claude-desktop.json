@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "webdesk": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://redcenterstudio.com/api/webdesk/mcp",
+        "--header",
+        "Authorization:${WEBDESK_AUTH}"
+      ],
+      "env": {
+        "WEBDESK_AUTH": "Bearer wd_YOUR_API_KEY"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "webdesk": {
+      "url": "https://redcenterstudio.com/api/webdesk/mcp",
+      "headers": {
+        "Authorization": "Bearer wd_YOUR_API_KEY"
+      }
+    },
+    "rcs-tools": {
+      "url": "https://redcenterstudio.com/api/tools/mcp"
+    }
+  }
+}
