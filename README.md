@@ -56,11 +56,13 @@ It uses the `mcp-remote` bridge to send the bearer key, so Node.js must be insta
 
 ## Free tools server (no key)
 
-Red Center Studio also runs a free MCP server with three checks, no API key needed:
+Red Center Studio also runs a free MCP server with five checks, no API key needed:
 
 - `geo_audit`: how ready a website is for AI assistants and search engines, with copy-paste fixes.
+- `ai_crawler_check`: whether the AI search crawlers from OpenAI, Anthropic, Perplexity and Google can reach a site.
+- `domain_health`: domain and certificate expiry, DNS basics, SPF, DMARC and DKIM, with plain fixes.
 - `spof_scan`: which companies a business depends on for email, sign-in, DNS and hosting, from public DNS.
-- `decode_error`: Bubble error messages explained, with the likely cause and the fix.
+- `decode_error`: Bubble error messages explained, with the likely cause and the fix guide.
 
 ```
 claude mcp add --transport http rcs-tools https://redcenterstudio.com/api/tools/mcp

@@ -29,16 +29,18 @@ in a pack of 25. The agent can top up credits itself with buy_credits.
 ### Free tools server (separate listing)
 
 **Name:** Red Center Studio free tools
-**One line:** Free website checks: GEO audit, single point of failure DNS scan, Bubble error decoder. No key.
+**One line:** Free website checks: AI search readiness, AI crawler access, domain health, DNS risks, Bubble errors.
 **Short description:**
-Three free checks as MCP tools, no API key. geo_audit scores how ready a website is for AI assistants and search
-engines (AI crawler access, sitemap, llms.txt, structured data, titles) and writes copy-paste fixes. spof_scan reads
-public DNS to show which companies run a business's email, sign-in, DNS and website, and what one outage would stop.
-decode_error explains error messages from apps built on Bubble, with the likely cause and the fix. Rate limited per
-connection.
+Five free checks as MCP tools, no API key. geo_audit scores how ready a website is for AI assistants and search
+engines (AI crawler access, sitemap, llms.txt, structured data, titles) and writes copy-paste fixes. ai_crawler_check
+shows whether the AI search crawlers from OpenAI, Anthropic, Perplexity and Google can reach a site, by robots.txt and
+a firewall test. domain_health checks domain and certificate expiry, DNS basics and email security (SPF, DMARC,
+DKIM). spof_scan reads public DNS to show which companies run a business's email, sign-in, DNS and website, and what
+one outage would stop. decode_error explains error messages from apps built on Bubble, with the likely cause and the
+fix guide. Results contain no prices or offers. Rate limited per connection.
 **Server URL:** https://redcenterstudio.com/api/tools/mcp
 **Transport:** Streamable HTTP, no auth
-**Tools:** geo_audit, spof_scan, decode_error
+**Tools:** geo_audit, ai_crawler_check, domain_health, spof_scan, decode_error
 **Docs:** https://redcenterstudio.com/webdesk/agents/docs/#free-tools
 **Pricing:** Free
 
