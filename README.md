@@ -82,7 +82,15 @@ free tools server.
 ## Support
 
 Email Hello@redcenterstudio.com with the job id. Websites are written by AI from the brief, so check every word before
-publishing. Terms: [redcenterstudio.com/terms/#webdesk](https://redcenterstudio.com/terms/#webdesk).
+publishing. Terms: [redcenterstudio.com/terms/#webdesk](https://redcenterstudio.com/terms/#webdesk). Privacy:
+[redcenterstudio.com/privacy/](https://redcenterstudio.com/privacy/).
+
+## More from Red Center Studio
+
+- All our Claude connectors (WebDesk for Claude, Site Watch, VaultSheet, free website checks):
+  [redcenterstudio.com/claude-connectors/](https://redcenterstudio.com/claude-connectors/) and
+  [claude-connectors on GitHub](https://github.com/Red-Center-Studio/claude-connectors).
+- Claude Code plugins: [claude-plugins](https://github.com/Red-Center-Studio/claude-plugins).
 
 ## Licence
 
