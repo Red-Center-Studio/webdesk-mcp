@@ -1,6 +1,7 @@
 # WebDesk MCP server
 
 [![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/red-center-studio/webdesk-mcp)
+[![Red-Center-Studio/webdesk-mcp MCP server](https://glama.ai/mcp/servers/Red-Center-Studio/webdesk-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Red-Center-Studio/webdesk-mcp)
 
 Let an AI agent build complete one-page websites for small businesses. Your agent sends a short brief, WebDesk writes
 and builds the site, and your agent gets back a ZIP of plain HTML, CSS and JavaScript that the business owns.
