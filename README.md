@@ -91,7 +91,9 @@ publishing. Terms: [redcenterstudio.com/terms/#webdesk](https://redcenterstudio.
 - All our Claude connectors (WebDesk for Claude, Site Watch, VaultSheet, free website checks):
   [redcenterstudio.com/claude-connectors/](https://redcenterstudio.com/claude-connectors/) and
   [claude-connectors on GitHub](https://github.com/Red-Center-Studio/claude-connectors).
+- [App Mover](https://redcenterstudio.com/app-mover/) and [Data Migrator](https://redcenterstudio.com/app-mover/?tab=data#run): move a Bubble® app's UI, backend, D1 database, and R2 files into your own Cloudflare account ([bubble-to-cloudflare-migrator](https://github.com/Red-Center-Studio/bubble-to-cloudflare-migrator)).
 - Claude Code plugins: [claude-plugins](https://github.com/Red-Center-Studio/claude-plugins).
+- Security contact: `hello@redcenterstudio.com`.
 
 ## Licence
 
